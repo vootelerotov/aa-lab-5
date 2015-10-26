@@ -10,7 +10,7 @@ public interface TreeMap<K extends Comparable<K>,V> {
      * @param key
      * @param value
      */
-    void add(K key, V value) throws IllegalStateException;
+    void add(K key, V value);
 
 
     /**
