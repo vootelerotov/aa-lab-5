@@ -29,7 +29,7 @@ public class TreeGeneratorImpl implements TreeGenerator {
         String leftValue = genHelper(lHeight);
         int key = i++;
         String rightValue = genHelper(rHeight);
-        return "[" + Integer.toString(key)+","+ Character.toString((char) (key+64)) + "]("+leftValue+")("+rightValue+")";
+        return "[" + Integer.toString(key)+","+ Character.toString((char) (key+64)) + "] ("+leftValue+") ("+rightValue+")";
     }
 
     public static void main (String[] args){
